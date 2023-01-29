@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative '../redis_init'
-require 'securerandom'
 
 class RedisHash < RedisInit
   def hmset(key, *values)
